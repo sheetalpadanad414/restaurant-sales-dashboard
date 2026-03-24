@@ -1,0 +1,102 @@
+.filter-panel {
+  background: linear-gradient(135deg, #1a1f3a 0%, #2d1b4e 100%);
+  border: 1px solid #3d2a5f;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #3d2a5f;
+}
+
+.filter-header h2 {
+  font-size: 1.3rem;
+  color: #00d4ff;
+  font-weight: 600;
+}
+
+.clear-btn {
+  background: transparent;
+  border: 1px solid #7b2ff7;
+  color: #7b2ff7;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+}
+
+.clear-btn:hover {
+  background: #7b2ff7;
+  color: #ffffff;
+}
+
+.filter-section {
+  margin-bottom: 1.5rem;
+}
+
+.filter-section h3 {
+  font-size: 1rem;
+  color: #a0a0c0;
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.checkbox-label:hover {
+  color: #00d4ff;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #00d4ff;
+}
+
+.date-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.date-input {
+  background: #0a0e27;
+  border: 1px solid #3d2a5f;
+  border-radius: 6px;
+  padding: 0.6rem;
+  color: #ffffff;
+  font-size: 0.9rem;
+  transition: border-color 0.3s ease;
+}
+
+.date-input:focus {
+  outline: none;
+  border-color: #00d4ff;
+}
+
+.date-input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
